@@ -1,0 +1,159 @@
+@media screen and (max-width: 600px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 0%;
+    }
+
+    img {
+      width: 140px;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(173, 170, 170);
+    }
+    
+    .pic{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(173, 170, 170);
+
+    }
+
+    .list {
+        font-size: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .arbetsF {
+        font-size: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+    }
+
+    h1, h2 {
+        text-decoration: underline;
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        font-size: 80%;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(173, 170, 170);
+    }
+
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (min-width: 601px) {
+
+    .main {
+        display: flex;
+        flex-direction: row;
+    }
+
+ img {
+
+      width: 340px;
+    }
+
+    body  {
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+
+    .head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 140%;
+        width: 100%;
+        background-color: rgb(226, 219, 219);
+    }
+ 
+    .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .leftColumn {
+        display: flex;
+        flex-direction: column;
+        width: 440px;
+        height: 100%;
+        background-color: rgb(173, 170, 170);
+        justify-content: center;
+        align-items: center;
+    }
+
+   .rightColumn {
+       width: 80%;
+       
+
+   }
+
+   .text {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       margin-left: 10%;
+       margin-right: 10%;
+       line-height: 1.6;
+       
+   }
+
+    h1, h2 {
+        text-decoration: underline;
+    }
+
+    .underMeny {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list {
+        font-size: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .arbetsF {
+        font-size: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        margin-left: 100px;
+    }
+    
+}
+
+
